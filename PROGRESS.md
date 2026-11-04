@@ -4,7 +4,7 @@ A simple table of what I practiced and what I learned.
 
 | Date | Topic | Problem | Status | Time | One thing I learned |
 | --- | --- | --- | --- | --- | --- |
-| 2026-11-03 | Arrays | Two Sum | In progress | — | — |
+| 2026-11-03 | Arrays | Two Sum | Solved | 30 min | Hash maps trade space for speed. |
 
 ## Status key
 

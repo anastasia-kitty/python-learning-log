@@ -7,27 +7,31 @@ two numbers that add up to the target.
 
 ## First idea
 
-Write your first idea here. Do not worry about whether it is optimal.
+Try every pair and check whether any pair adds up to the target.
+(But this is very inefficient!)
 
 ## Final approach
 
-Explain your final solution here after you write the code.
+A faster approach is to scan the list once. For each number, compute
+`need = target - number`. If `need` is already in a hash map of numbers
+we have seen, return the indices of `need` and the current number.
+Otherwise, store the current number and its index in the map, then continue.
 
 ## Complexity
 
-- Time: O(?)
-- Space: O(?)
+- Time: O(n), because each number is visited only once.
+- Space: O(n), because the hash map may store up to n numbers.
 
 ## What I learned
 
-Write one or two sentences about today's practice.
+A hash map can help me avoid checking every pair one by one.
 
 ## English words I used
 
-- word or phrase:
-- meaning:
-- example sentence:
+- word or phrase: indices
+- meaning: the plural of "index"
+- example sentence: Return the indices of the two numbers.
 
 ## Next step
 
-What will you do next time?
+Learn more about hash maps.
